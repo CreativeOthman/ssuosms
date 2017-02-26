@@ -1,0 +1,159 @@
+﻿body {
+
+}
+        .container {
+            width:100%;
+            color: #000;
+        }
+        .body-content {
+            margin-left: 14em;
+            margin-top: 4.5em;
+            width: 85%;
+            height: 500px;
+            transition: margin-left 0.5s linear;
+            -webkit-transition: margin-left 0.5s linear;
+            -moz-transition: margin-left 0.5s linear;
+            overflow:hidden;
+            background: chocolate;
+            overflow: auto;
+            border-radius: 5px;
+        }
+
+        header{
+            padding:0.7em;
+            background-color:black;
+            color:white;
+            font-size:large;
+            width:100%;
+            color: #000;
+            display:block;
+        }
+        header a{
+            text-decoration:none;
+            color: #000;
+        }
+
+        #nav ul li a{
+            color: #000;
+        }
+        header a:hover{
+            text-decoration:none;
+         
+        }
+        .ssuoss-sn-wrapper {
+            position: absolute;
+            top: 3.6em;
+            left: 0em;
+            width: 13em;
+            height: 610px;
+            background-color: black;
+            transition: left 0.5s linear;
+            -webkit-transition: left 0.5s linear;
+            -moz-transition: left 0.5s linear;
+             background-color: chartreuse;background: rgba(0, 0, 0, 0) linear-gradient(to right, #008000 32%, #008000 50%, #008300 68%) repeat scroll 0 0;
+            border-bottom: 4px solid #e67817;
+           
+            border-left: 4px solid #e67817;
+        }
+
+        .ssuoss-sn-wrapper ul{
+            width:11em;
+            list-style:none;
+            margin-top:2em;
+            margin-left:1em;
+            padding:0em;
+
+
+        }
+        .ssuoss-sn-wrapper ul li{
+            margin-top:1em;
+            margin-bottom:0.5em;
+
+
+        }
+
+            .ssuoss-sn-wrapper ul li a{
+                 color: #000;
+                text-decoration:none;
+                padding: 0.5em;
+            }
+            .ssuoss-sn-wrapper ul li a:hover{
+                text-decoration:none;
+                color:#fff;
+            }
+                .ssuoss-sn-wrapper ul li a:active,
+                .ssuoss-sn-wrapper ul li a:focus {
+                    text-decoration: none;
+                    color: red;
+                    outline:none
+                }
+
+            .ssuoss-sn-wrapper ul .ssuoss-sn-brand{
+                margin-left: -0.5em;
+                color:white;
+                font-size:large;
+
+            }
+            .ssuoss-sn-wrapper ul .ssuoss-sn-brand a:hover{
+                color:lightblue;
+                background:none;
+            }
+
+            .ssuoss-sn-wrapper ul li ul{
+                list-style:none;
+                margin-top:1em;
+                margin-left:1em;
+
+            }
+
+            @media all and (max-width:768px){
+                .ssuoss-sn-wrapper{ 
+                    left: -10em;
+                }
+                    .ssuoss-sn-wrapper ul li a i{
+                        padding-left:10em;
+                        margin-top:-1em;
+                        margin-bottom:-1em;
+                    }             
+                    
+               .body-content {
+                        margin-left: 2em;
+
+                        
+                    }
+            }
+
+        .ssuoss-sn-wrapper ul li a span, 
+        {
+            margin-top: -1em;
+            margin-bottom: -1em;
+            margin-left: 1em;
+            margin-bottom: -1em;
+            padding-top: -1em;
+            padding-bottom: -1em;
+        }
+          
+    #msg{
+      text-align: center;
+text-transform: uppercase;
+color: #fff;
+    }
+
+    #bg{
+           margin-left: 10em;
+            margin-top: 0.1em;
+            width: 90%;
+            height: 70px;
+            transition: margin-left 0.5s linear;
+            -webkit-transition: margin-left 0.5s linear;
+            -moz-transition: margin-left 0.5s linear;
+            overflow:hidden;
+            background-color:chartreuse;
+            background: rgba(0, 0, 0, 0) linear-gradient(to right, #008000 20%, #fff 45%, #008300 68%) repeat scroll 0 0;
+            border-bottom: 4px solid #e67817;
+    }
+
+    #login_panel{
+        background-color: chartreuse;background: rgba(0, 0, 0, 0) linear-gradient(to right, #008000 32%, #277763 50%, #008300 68%) repeat scroll 0 0;
+        border-bottom: 4px solid #e67817; margin-top: 4.5em;border-radius:6px;
+    }

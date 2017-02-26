@@ -1,0 +1,97 @@
+﻿body {
+}
+/*Themes Structure of the summary blocks*/
+/*Primary Theme*/ 
+       .pdsa-summary-block-primary{
+            background-color:#428bca;
+            color:#fff;}
+         .pdsa-summary-block-primary .summary-footer{
+             background-color:deepskyblue;}
+         .pdsa-summary-block-primary .summary-footer a{
+             color:white;}
+
+/*success Theme*/ 
+         .pdsa-summary-block-success{
+            background-color:#3c763d;
+            color:#fff;}
+         .pdsa-summary-block-success .summary-footer{
+             background-color:green;}
+         .pdsa-summary-block-success .summary-footer a{
+             color:white;}
+/*info Theme*/ 
+         .pdsa-summary-block-info{
+            background-color:#31708f;
+            color:#fff;}
+         .pdsa-summary-block-info .summary-footer{
+             background-color:teal;}
+         .pdsa-summary-block-info .summary-footer a{
+             color:white;}
+
+/*Danger Theme*/ 
+         .pdsa-summary-block-danger{
+            background-color:#944402;
+            color:#fff;}
+         .pdsa-summary-block-danger .summary-footer{
+             background-color:red;}
+         .pdsa-summary-block-danger .summary-footer a{
+             color:white; }
+
+
+/*Structure of the summary blocks                              */
+
+       .pdsa-summary-block{
+            position:relative;
+            width:100%;
+            margin:0.3em;
+            padding:1em;
+            min-height:15em;
+            border-radius: 15px;}
+        .pdsa-summary-block .summary-background i{
+            margin-left:-0.2em;
+            margin-top:0.1em;
+            font-size:8em;
+            opacity:0.3;
+            
+        }
+        .pdsa-summary-block .summary-body{
+            position:absolute;
+            top:1.3em;
+            right:0.8em;
+        }
+            .pdsa-summary-block .summary-body .summary-line-1 {
+              text-align:right;
+              font-size:xx-large;
+
+            }
+            .pdsa-summary-block .summary-body .summary-line-2 {
+                text-align: right;
+                font-size: medium;
+            }
+            .pdsa-summary-block .summary-footer {
+             position:absolute;
+             bottom:0em;;
+             right:0em;
+             width:100%;
+             padding:1.4em;
+             font-weight:300;
+             text-transform:uppercase;
+             font-size:small;
+             opacity:0.6;
+             cursor:pointer;
+            }
+                .pdsa-summary-block .summary-footer a {
+                    text-decoration: none;
+                    display: block;
+                }
+               .pdsa-summary-block .summary-footer a:hover{
+               text-decoration:none;
+               font-weight:bold;
+               
+            }
+            .pdsa-summary-block .summary-footer:hover{
+                opacity:1;
+
+            }
+             .pdsa-summary-block .summary-footer i{
+                 margin-left:8em;
+             }
